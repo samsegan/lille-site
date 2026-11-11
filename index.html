@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>LILLE</title>
+<meta name="description" content="LILLE. New York. Hard dance and speed garage. New single: WITH ME, with K.ONE, on IN / ROTATION.">
+<meta property="og:title" content="LILLE">
+<meta property="og:description" content="New York. Hard dance and speed garage. New single: WITH ME, with K.ONE.">
+<meta property="og:image" content="https://samsegan.github.io/lille-site/img/share.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#07090b">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28'%3E%3Crect width='28' height='28' fill='%2307090b'/%3E%3Cpath fill='%23fff' d='M4 3h5v17h9v5H4zM24 25h-5V8h-9V3h14z'/%3E%3Cpath fill='%23c8102e' d='M12.5 11h3v6h-3z'/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/anybody-100-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/antonio-100-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/styles.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<!-- A short counter while the first picture loads -->
+<div class="loader" id="loader" aria-hidden="true">
+  <svg class="mark" viewBox="0 0 28 28"><path d="M4 3h5v17h9v5H4zM24 25h-5V8h-9V3h14z"/><path class="i" d="M12.5 11h3v6h-3z"/></svg>
+  <p><span id="loader-word">Activating</span> <b id="loader-n">0%</b></p>
+</div>
+
+<header class="top" id="topbar">
+  <a class="logo" href="#top" data-go="top" aria-label="LILLE, back to the top">
+    <svg class="mark" viewBox="0 0 28 28" aria-hidden="true"><path d="M4 3h5v17h9v5H4zM24 25h-5V8h-9V3h14z"/><path class="i" d="M12.5 11h3v6h-3z"/></svg>
+  </a>
+  <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="menu"><i></i><i></i></button>
+</header>
+
+<nav class="menu" id="menu" aria-label="Sections" hidden>
+  <figure class="menu-pic"><img src="img/menu.jpg" alt="LILLE, black and white, leaning on a wall" width="1000" height="1334"></figure>
+  <ul>
+    <li><a href="#top" data-go="top">Home</a></li>
+    <li><a href="#song" data-go="song">New single</a></li>
+    <li><a href="#music" data-go="music">Discography</a></li>
+    <li><a href="#about" data-go="about">About</a></li>
+    <li><a href="#live" data-go="live">Nights</a></li>
+    <li><a href="#contact" data-go="contact">Contact</a></li>
+  </ul>
+</nav>
+
+<main>
+
+<!-- ============ Landing ============ -->
+<section class="hero-wrap" id="top">
+  <div class="hero">
+    <div class="board" id="board">
+      <picture class="hero-bg">
+        <source media="(max-width: 820px) and (orientation: portrait)" srcset="img/hero-m.jpg">
+        <img src="img/hero.jpg" alt="LILLE leaning against a pale wall: dark curls, a moustache, a cream ringer tee with red trim" width="2400" height="1350" fetchpriority="high">
+      </picture>
+      <p class="hero-word" aria-hidden="true"><span>L</span><span>I</span><span>L</span><span>L</span><span>E</span></p>
+      <picture class="hero-cut" aria-hidden="true">
+        <source media="(max-width: 820px) and (orientation: portrait)" srcset="img/hero-m-cut.webp">
+        <img src="img/hero-cut.webp" alt="" width="2400" height="1350">
+      </picture>
+      <h1 class="hero-name"><span class="sr">LILLE. </span><span class="hero-sub">Let’s activate</span></h1>
+    </div>
+    <p class="hero-foot"><span>New York</span><span>Hard dance <i>•</i> Speed garage</span><span class="cue">Scroll</span></p>
+  </div>
+</section>
+
+<!-- ============ New single → discography → about (one pinned run) ============ -->
+<section class="run" id="run">
+  <div class="stage">
+    <div class="track" id="track">
+
+      <div class="panel song" id="song">
+        <h2 class="song-title" id="song-title">WITH ME</h2>
+        <p class="song-tag" id="song-tag">Out now <i>•</i> LILLE &amp; K.ONE <i>•</i> IN / ROTATION</p>
+        <div class="song-row" id="song-row">
+          <button class="media" id="media" type="button" data-play="with-me" aria-label="Play WITH ME">
+            <img src="art/with-me.jpg" alt="WITH ME cover: light streaks, the IN / ROTATION globe" width="720" height="720">
+            <span class="rec">● 135 BPM</span>
+            <span class="playdisc" aria-hidden="true"></span>
+            <i class="c1"></i><i class="c2"></i>
+          </button>
+          <ul class="stream" id="stream">
+            <li><a href="https://open.spotify.com/track/5iGNo6paZZxIU3MkJg55Rr" target="_blank" rel="noopener"><span>Spotify</span><b>↗</b></a></li>
+            <li><a href="https://music.apple.com/us/album/with-me-single/6807945404" target="_blank" rel="noopener"><span>Apple <br>Music</span><b>↗</b></a></li>
+            <li><a href="https://soundcloud.com/jakelille/withme" target="_blank" rel="noopener"><span>SoundCloud</span><b>↗</b></a></li>
+            <li><a href="https://www.beatport.com/release/with-me/7412303" target="_blank" rel="noopener"><span>Beatport</span><b>↗</b></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="panel disco" id="music">
+        <div class="tilt" id="tilt">
+          <h2 class="disco-title">Discography</h2>
+          <div class="deck" id="deck">
+
+            <article class="card" data-id="vault" style="--c1:#8a2540;--c2:#c98295;--fg:#fff">
+              <header><h3>Lille Vault</h3><span class="yr">2019–20</span></header>
+              <div class="card-body">
+                <button class="cover" type="button" data-play="nowhere-to-go" aria-label="Play Nowhere To Go (Lille Remix)"><img src="art/vault.jpg" alt="Nowhere To Go remix artwork" width="720" height="720" loading="lazy"><span class="playdisc" aria-hidden="true"></span></button>
+                <div class="card-info">
+                  <h4>Tracklist</h4>
+                  <ol>
+                    <li><button type="button" data-play="midnight-city">M83, Midnight City (Lille Remix)</button> <em>2019</em></li>
+                    <li><button type="button" data-play="nowhere-to-go">Hayden James ft. NAATIONS, Nowhere To Go (Lille Remix)</button> <em>2020</em></li>
+                  </ol>
+                  <p class="card-note">The earlier remixes, kept on SoundCloud.</p>
+                  <p class="card-links"><a href="https://soundcloud.com/jakelille/sets/previous-electronic-releases" target="_blank" rel="noopener">SoundCloud ↗</a></p>
+                </div>
+              </div>
+            </article>
+
+            <article class="card" data-id="when-it-comes-to-love" style="--c1:#3a0b0a;--c2:#a51412;--fg:#fff">
+              <header><h3>When It Comes To Love</h3><span class="yr">2024</span></header>
+              <div class="card-body">
+                <button class="cover" type="button" data-play="when-it-comes-to-love" aria-label="Play WHEN IT COMES TO LOVE"><img src="art/when-it-comes-to-love.jpg" alt="WHEN IT COMES TO LOVE cover: a hand in red light" width="720" height="720" loading="lazy"><span class="playdisc" aria-hidden="true"></span></button>
+                <div class="card-info">
+                  <h4>Details</h4>
+                  <ol>
+                    <li>Single</li>
+                    <li>Out October 2024</li>
+                    <li>2:57</li>
+                  </ol>
+                  <p class="card-links"><button type="button" class="go" data-play="when-it-comes-to-love">Play</button><a href="https://soundcloud.com/jakelille/when-it-comes-to-love-1" target="_blank" rel="noopener">SoundCloud ↗</a></p>
+                </div>
+              </div>
+            </article>
+
+            <article class="card" data-id="everlong" style="--c1:#ffffff;--c2:#dcdcdc;--fg:#0a0a0a;--on:#fff">
+              <header><h3>Everlong <small>Lille Remix</small></h3><span class="yr">2025</span></header>
+              <div class="card-body">
+                <button class="cover" type="button" data-play="everlong" aria-label="Play EVERLONG, LILLE REMIX"><img src="art/everlong.jpg" alt="Cover: the words everlong speed garage remix xD, black on white" width="720" height="720" loading="lazy"><span class="playdisc" aria-hidden="true"></span></button>
+                <div class="card-info">
+                  <h4>Details</h4>
+                  <ol>
+                    <li>Speed garage remix</li>
+                    <li>Out 2025, on SoundCloud</li>
+                    <li>2:44</li>
+                    <li>“dave grohl would probably hate this, it rips tho”</li>
+                  </ol>
+                  <p class="card-links"><button type="button" class="go" data-play="everlong">Play</button><a href="https://soundcloud.com/jakelille/everlong" target="_blank" rel="noopener">SoundCloud ↗</a><a href="https://laylo.com/lille/qIM3bN" target="_blank" rel="noopener">Free download ↗</a></p>
+                </div>
+              </div>
+            </article>
+
+            <article class="card" data-id="thats-my-bby" style="--c1:#7c9cc2;--c2:#3b424c;--fg:#fff">
+              <header><h3>Thats My Bby</h3><span class="yr">2026</span></header>
+              <div class="card-body">
+                <button class="cover" type="button" data-play="thats-my-bby" aria-label="Play THATS MY BBY"><img src="art/thats-my-bby.jpg" alt="THATS MY BBY cover: a figure crouched on a glacier with a pickaxe" width="720" height="720" loading="lazy"><span class="playdisc" aria-hidden="true"></span></button>
+                <div class="card-info">
+                  <h4>Details</h4>
+                  <ol>
+                    <li>A flip, out on SoundCloud</li>
+                    <li>Out 2026</li>
+                    <li>3:48</li>
+                    <li>Free download</li>
+                  </ol>
+                  <p class="card-links"><button type="button" class="go" data-play="thats-my-bby">Play</button><a href="https://soundcloud.com/jakelille/thats-my-bby" target="_blank" rel="noopener">SoundCloud ↗</a><a href="https://laylo.com/lille/ZdCymD" target="_blank" rel="noopener">Free download ↗</a></p>
+                </div>
+              </div>
+            </article>
+
+            <article class="card" data-id="with-me" style="--c1:#12302e;--c2:#d9562f;--fg:#fff">
+              <header><h3>With Me</h3><span class="yr">2026</span></header>
+              <div class="card-body">
+                <button class="cover" type="button" data-play="with-me" aria-label="Play WITH ME"><img src="art/with-me.jpg" alt="WITH ME cover" width="720" height="720" loading="lazy"><span class="playdisc" aria-hidden="true"></span></button>
+                <div class="card-info">
+                  <h4>Details</h4>
+                  <ol>
+                    <li>LILLE &amp; K.ONE</li>
+                    <li>IN / ROTATION (Insomniac Records)</li>
+                    <li>Out 9 October 2026</li>
+                    <li>4:03</li>
+                  </ol>
+                  <p class="card-links"><button type="button" class="go" data-play="with-me">Play</button><a href="https://soundcloud.com/jakelille/withme" target="_blank" rel="noopener">SoundCloud ↗</a><a href="https://open.spotify.com/track/5iGNo6paZZxIU3MkJg55Rr" target="_blank" rel="noopener">Spotify ↗</a></p>
+                </div>
+              </div>
+            </article>
+
+            <article class="card" data-id="ids" style="--c1:#2a1026;--c2:#b0456a;--fg:#fff">
+              <header><h3>Unreleased</h3><span class="yr">Next</span></header>
+              <div class="card-body">
+                <a class="cover" href="https://www.instagram.com/lillemusic/p/De97beeibHn/" target="_blank" rel="noopener" aria-label="The Elsewhere set on Instagram"><img src="art/ids.jpg" alt="LILLE behind the decks at Elsewhere, in pink light" width="720" height="720" loading="lazy"></a>
+                <div class="card-info">
+                  <h4>Heard at Elsewhere</h4>
+                  <ol>
+                    <li>Only One</li>
+                    <li>Paradigm <em>with ANK</em></li>
+                    <li>Fall Apart <em>with Gusta</em></li>
+                    <li>Peace &amp; Love <em>with Sean Grey</em></li>
+                    <li>I Know U</li>
+                  </ol>
+                  <p class="card-links"><a href="https://www.instagram.com/lillemusic/p/De97beeibHn/" target="_blank" rel="noopener">The set, on Instagram ↗</a><a href="https://laylo.com/lille" target="_blank" rel="noopener">Get notified ↗</a></p>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+        <ol class="index" id="index" aria-label="Every release"></ol>
+      </div>
+
+    </div>
+
+    <div class="about" id="about">
+      <h2 class="about-title">About</h2>
+      <dl class="facts">
+        <div><dt>Based</dt><dd>New York</dd></div>
+        <div><dt>Sound</dt><dd>Hard dance, speed garage</dd></div>
+        <div><dt>Latest</dt><dd>WITH ME, with K.ONE</dd></div>
+        <div><dt>Label</dt><dd>IN / ROTATION</dd></div>
+      </dl>
+      <div class="who" id="who">
+        <p class="bubble" id="bubble" aria-live="polite"><span id="bubble-text">pull a curl…</span><small id="bubble-src"></small></p>
+<!--AVATAR-->
+<svg class="avatar" id="avatar" viewBox="0 0 360 440" role="img" aria-label="A line drawing of LILLE: curls, a moustache, a ringer tee">
+<g fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M150 296 L150 336 C122 348 60 360 42 440"/><path d="M210 296 L210 336 C238 348 300 360 318 440"/>
+<path class="collar" d="M139 341 Q180 378 221 341" stroke="var(--red)" stroke-width="7"/>
+<path d="M152 330 Q180 396 208 330" stroke-width="1.6" stroke-dasharray="1.5 4"/>
+<path d="M118 206 C104 204 106 236 121 236" fill="#000"/><path d="M242 206 C256 204 254 236 239 236" fill="#000"/>
+<path d="M118 205 C118 138 242 138 242 205 C242 262 214 298 180 298 C146 298 118 262 118 205Z" fill="#000"/>
+</g>
+<g class="eyes"><ellipse cx="156" cy="218" rx="13" ry="9.5" fill="#fff"/><ellipse cx="204" cy="218" rx="13" ry="9.5" fill="#fff"/>
+<circle class="pupil" cx="156" cy="219" r="5.2"/><circle class="pupil" cx="204" cy="219" r="5.2"/>
+<path d="M141 213 Q156 204 171 213 L171 205 L141 205Z" fill="#000"/><path d="M189 213 Q204 204 219 213 L219 205 L189 205Z" fill="#000"/></g>
+<g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+<path d="M140 199 Q154 190 169 195 M191 195 Q206 190 220 199" stroke-width="4"/>
+<path d="M181 226 L176 246 L184 248" stroke-width="2"/>
+<path d="M171 275 Q180 281 189 275" stroke-width="2.4"/></g>
+<path class="tash" d="M154 264 Q166 250 180 256 Q194 250 206 264 Q193 260 180 263 Q167 260 154 264Z" fill="#fff"/>
+<g class="curls" fill="#000" stroke="#fff" stroke-width="2" stroke-linecap="round">
+<circle cx="82.7" cy="179.2" r="20.2" stroke="none"/><path d="M99.7 172.7 L95.3 166.9 L89.1 163.4 L82.3 162.8 L76.0 164.8 L71.3 169.1 L68.7 174.7 L68.6 180.6 L70.9 185.8 L74.9 189.6 L79.8 191.3 L84.8 190.9 L89.0 188.7 L91.7 185.1 L92.8 180.9 L92.0 176.9 L89.9 173.7 L86.8 171.8 L83.5 171.4 L80.5 172.3 L78.3 174.2 L77.2 176.6 L77.2 179.1 L78.1 181.1 L79.7 182.4 L81.4 182.8 L82.9 182.5" fill="none"/>
+<circle cx="88.3" cy="156.9" r="18.0" stroke="none"/><path d="M103.5 162.0 L103.8 155.6 L101.5 149.8 L97.3 145.5 L91.8 143.4 L86.2 143.6 L81.4 146.0 L78.0 149.9 L76.6 154.7 L77.2 159.5 L79.6 163.4 L83.2 166.0 L87.3 166.8 L91.2 165.9 L94.2 163.7 L95.9 160.5 L96.3 157.2 L95.2 154.2 L93.2 152.0 L90.7 150.9 L88.1 151.0 L86.0 152.0 L84.6 153.7 L84.2 155.6 L84.5 157.3 L85.4 158.6 L86.6 159.2" fill="none"/>
+<circle cx="96.8" cy="145.5" r="18.0" stroke="none"/><path d="M81.4 141.2 L81.4 147.6 L84.0 153.3 L88.5 157.3 L94.0 159.2 L99.6 158.6 L104.3 156.0 L107.5 151.9 L108.6 147.0 L107.8 142.3 L105.2 138.5 L101.5 136.1 L97.3 135.5 L93.5 136.6 L90.6 139.0 L89.0 142.2 L88.9 145.6 L90.0 148.5 L92.1 150.6 L94.7 151.5 L97.3 151.3 L99.4 150.2 L100.6 148.5 L101.0 146.6 L100.6 144.8 L99.6 143.6 L98.4 143.1" fill="none"/>
+<circle cx="110.4" cy="131.0" r="18.1" stroke="none"/><path d="M124.3 122.8 L125.9 129.1 L124.8 135.3 L121.5 140.4 L116.6 143.6 L111.0 144.5 L105.7 143.2 L101.6 139.9 L99.2 135.5 L98.8 130.7 L100.4 126.3 L103.4 123.1 L107.3 121.4 L111.3 121.5 L114.8 123.1 L117.1 125.8 L118.1 129.1 L117.7 132.3 L116.2 134.8 L113.9 136.4 L111.3 136.8 L109.0 136.3 L107.4 134.9 L106.5 133.1 L106.5 131.3 L107.1 129.9 L108.2 129.0" fill="none"/>
+<circle cx="124.9" cy="113.5" r="17.6" stroke="none"/><path d="M113.4 103.0 L110.7 108.7 L110.4 114.7 L112.5 120.2 L116.6 124.2 L121.7 126.2 L126.9 125.9 L131.5 123.7 L134.6 120.0 L135.9 115.5 L135.3 111.0 L133.1 107.4 L129.7 105.1 L125.9 104.4 L122.3 105.2 L119.6 107.3 L118.0 110.2 L117.7 113.2 L118.7 115.9 L120.5 117.9 L122.8 118.8 L125.1 118.7 L127.0 117.8 L128.2 116.3 L128.5 114.6 L128.2 113.1 L127.4 112.1" fill="none"/>
+<circle cx="143.9" cy="102.7" r="17.0" stroke="none"/><path d="M146.1 87.8 L140.1 88.7 L135.1 91.7 L131.9 96.4 L130.8 101.7 L132.0 106.9 L135.0 111.0 L139.2 113.4 L143.9 113.9 L148.2 112.6 L151.4 109.7 L153.2 106.0 L153.2 102.0 L151.8 98.6 L149.2 96.2 L146.0 95.1 L142.9 95.3 L140.2 96.8 L138.6 99.0 L138.0 101.5 L138.5 103.9 L139.8 105.7 L141.6 106.7 L143.4 106.8 L145.0 106.2 L146.0 105.1 L146.3 103.9" fill="none"/>
+<circle cx="173.8" cy="101.6" r="20.8" stroke="none"/><path d="M155.5 97.0 L155.8 104.6 L159.0 111.2 L164.4 115.8 L171.0 117.8 L177.6 117.0 L183.0 113.8 L186.6 108.8 L187.8 103.0 L186.6 97.5 L183.5 93.1 L179.0 90.4 L174.1 89.9 L169.6 91.3 L166.3 94.2 L164.5 98.0 L164.5 102.0 L166.0 105.4 L168.5 107.8 L171.6 108.8 L174.6 108.5 L177.0 107.1 L178.5 105.0 L178.9 102.7 L178.3 100.7 L177.1 99.3 L175.6 98.7" fill="none"/>
+<circle cx="188.8" cy="96.8" r="17.8" stroke="none"/><path d="M204.2 93.3 L203.9 99.6 L201.1 105.1 L196.4 108.9 L190.9 110.4 L185.4 109.6 L180.9 106.8 L178.0 102.5 L177.1 97.7 L178.2 93.1 L180.9 89.4 L184.7 87.3 L188.8 86.9 L192.5 88.2 L195.3 90.7 L196.7 94.0 L196.6 97.3 L195.3 100.1 L193.1 102.1 L190.5 102.9 L188.0 102.5 L186.1 101.3 L184.9 99.5 L184.6 97.6 L185.1 96.0 L186.1 94.8 L187.4 94.3" fill="none"/>
+<circle cx="210.6" cy="105.6" r="17.7" stroke="none"/><path d="M220.1 118.0 L223.9 112.9 L225.2 107.0 L224.1 101.2 L220.8 96.5 L216.1 93.6 L210.9 92.9 L205.9 94.3 L202.2 97.5 L200.1 101.7 L199.9 106.2 L201.4 110.2 L204.3 113.1 L208.0 114.5 L211.7 114.3 L214.8 112.7 L216.9 110.2 L217.7 107.2 L217.2 104.3 L215.7 102.0 L213.6 100.7 L211.3 100.4 L209.3 101.0 L207.9 102.3 L207.2 103.9 L207.3 105.4 L207.9 106.6" fill="none"/>
+<circle cx="232.2" cy="111.6" r="19.3" stroke="none"/><path d="M217.9 101.7 L223.3 97.3 L229.8 95.5 L236.3 96.4 L241.7 99.7 L245.1 104.7 L246.2 110.5 L245.0 116.0 L241.7 120.4 L237.2 122.9 L232.2 123.4 L227.7 121.9 L224.3 118.9 L222.6 115.0 L222.5 110.9 L224.1 107.3 L226.8 104.9 L230.1 103.8 L233.3 104.1 L235.8 105.6 L237.5 107.9 L237.9 110.4 L237.4 112.7 L236.1 114.3 L234.3 115.2 L232.7 115.2 L231.3 114.5" fill="none"/>
+<circle cx="245.2" cy="125.3" r="18.2" stroke="none"/><path d="M239.8 110.0 L234.5 113.8 L231.3 119.2 L230.5 125.3 L232.2 130.9 L235.9 135.3 L240.8 137.7 L246.1 137.9 L250.8 136.0 L254.3 132.5 L255.9 128.2 L255.7 123.7 L253.8 119.9 L250.6 117.4 L246.9 116.4 L243.4 116.9 L240.5 118.8 L238.7 121.4 L238.2 124.4 L239.0 127.1 L240.6 129.1 L242.8 130.2 L245.0 130.2 L246.8 129.4 L248.0 128.1 L248.4 126.6 L248.1 125.2" fill="none"/>
+<circle cx="263.6" cy="142.6" r="17.2" stroke="none"/><path d="M278.6 140.2 L276.0 134.7 L271.5 130.8 L266.1 129.1 L260.5 129.7 L255.9 132.4 L252.9 136.5 L251.8 141.4 L252.7 146.0 L255.4 149.8 L259.1 152.0 L263.3 152.6 L267.1 151.4 L270.0 149.0 L271.5 145.7 L271.6 142.3 L270.4 139.4 L268.2 137.3 L265.5 136.3 L262.9 136.6 L260.8 137.8 L259.5 139.6 L259.1 141.6 L259.5 143.4 L260.5 144.7 L261.9 145.4 L263.2 145.3" fill="none"/>
+<circle cx="271.6" cy="166.5" r="18.6" stroke="none"/><path d="M255.7 161.5 L259.4 155.9 L264.9 152.4 L271.1 151.4 L276.9 153.0 L281.5 156.6 L284.1 161.6 L284.5 167.0 L282.7 171.9 L279.3 175.5 L274.9 177.4 L270.3 177.3 L266.4 175.4 L263.7 172.3 L262.5 168.6 L263.0 164.9 L264.7 161.9 L267.4 160.0 L270.5 159.4 L273.3 160.0 L275.4 161.7 L276.5 163.8 L276.6 166.1 L275.9 168.0 L274.5 169.2 L273.0 169.7 L271.6 169.5" fill="none"/>
+<circle cx="101.1" cy="193.6" r="16.0" stroke="none"/><path d="M114.5 197.7 L114.6 192.0 L112.4 187.0 L108.6 183.4 L103.8 181.7 L98.8 182.0 L94.6 184.2 L91.8 187.8 L90.7 192.1 L91.4 196.2 L93.6 199.6 L96.8 201.7 L100.4 202.3 L103.8 201.4 L106.4 199.4 L107.8 196.6 L108.0 193.7 L107.1 191.0 L105.2 189.2 L103.0 188.3 L100.7 188.5 L98.9 189.4 L97.7 190.9 L97.4 192.6 L97.7 194.1 L98.6 195.2 L99.6 195.7" fill="none"/>
+<circle cx="100.4" cy="171.7" r="16.5" stroke="none"/><path d="M100.8 186.2 L95.1 184.7 L90.7 181.2 L88.1 176.4 L87.7 171.1 L89.4 166.3 L92.8 162.8 L97.1 160.9 L101.7 161.0 L105.6 162.8 L108.4 165.9 L109.6 169.7 L109.2 173.4 L107.4 176.6 L104.7 178.6 L101.5 179.3 L98.5 178.6 L96.2 177.0 L94.8 174.6 L94.6 172.1 L95.3 170.0 L96.8 168.4 L98.6 167.7 L100.4 167.7 L101.8 168.5 L102.6 169.6 L102.8 170.9" fill="none"/>
+<circle cx="111.2" cy="157.0" r="18.1" stroke="none"/><path d="M113.7 141.1 L107.3 141.9 L101.9 145.1 L98.4 150.1 L97.2 155.8 L98.3 161.3 L101.5 165.8 L106.0 168.4 L111.0 169.0 L115.7 167.6 L119.2 164.6 L121.1 160.6 L121.2 156.4 L119.7 152.7 L116.9 150.1 L113.5 148.8 L110.2 149.1 L107.3 150.6 L105.5 153.0 L104.9 155.7 L105.4 158.2 L106.8 160.1 L108.6 161.2 L110.6 161.4 L112.3 160.8 L113.4 159.6 L113.8 158.3" fill="none"/>
+<circle cx="121.6" cy="137.9" r="17.5" stroke="none"/><path d="M117.2 152.7 L111.9 149.4 L108.6 144.3 L107.6 138.6 L108.9 133.1 L112.2 128.8 L116.8 126.3 L121.8 125.8 L126.4 127.4 L129.8 130.5 L131.6 134.6 L131.6 138.8 L130.0 142.5 L127.1 145.1 L123.7 146.3 L120.2 145.9 L117.4 144.3 L115.6 141.8 L115.0 139.0 L115.5 136.4 L117.0 134.4 L119.0 133.3 L121.1 133.2 L122.9 133.8 L124.1 135.1 L124.5 136.5 L124.4 137.8" fill="none"/>
+<circle cx="143.2" cy="128.5" r="17.4" stroke="none"/><path d="M131.4 118.6 L128.9 124.3 L128.9 130.3 L131.2 135.6 L135.4 139.4 L140.5 141.1 L145.6 140.7 L150.0 138.3 L153.0 134.5 L154.1 130.0 L153.3 125.6 L151.0 122.1 L147.6 120.0 L143.8 119.4 L140.3 120.4 L137.6 122.6 L136.2 125.5 L136.0 128.5 L137.1 131.1 L139.0 133.0 L141.3 133.8 L143.6 133.6 L145.4 132.6 L146.5 131.1 L146.8 129.4 L146.4 128.0 L145.5 127.0" fill="none"/>
+<circle cx="154.8" cy="117.0" r="18.2" stroke="none"/><path d="M148.6 132.0 L143.5 127.9 L140.6 122.3 L140.2 116.2 L142.2 110.7 L146.1 106.6 L151.1 104.4 L156.4 104.5 L161.0 106.6 L164.2 110.2 L165.6 114.7 L165.2 119.1 L163.0 122.8 L159.8 125.1 L156.1 126.0 L152.5 125.2 L149.8 123.2 L148.1 120.5 L147.8 117.5 L148.7 114.8 L150.4 112.9 L152.6 112.0 L154.8 112.1 L156.6 113.0 L157.7 114.4 L158.0 115.9 L157.7 117.2" fill="none"/>
+<circle cx="175.5" cy="114.3" r="18.5" stroke="none"/><path d="M172.5 98.1 L179.1 98.7 L184.8 101.9 L188.5 106.9 L189.9 112.7 L188.8 118.4 L185.7 123.0 L181.1 125.9 L176.0 126.6 L171.2 125.3 L167.6 122.3 L165.5 118.3 L165.3 114.0 L166.8 110.1 L169.5 107.4 L172.9 106.0 L176.4 106.2 L179.3 107.7 L181.3 110.0 L182.0 112.8 L181.5 115.4 L180.2 117.4 L178.3 118.6 L176.3 118.8 L174.5 118.2 L173.4 117.1 L172.9 115.7" fill="none"/>
+<circle cx="200.9" cy="121.6" r="16.2" stroke="none"/><path d="M215.0 120.4 L213.9 126.0 L210.7 130.6 L206.2 133.3 L201.0 134.0 L196.2 132.7 L192.5 129.6 L190.5 125.5 L190.3 121.0 L191.8 117.0 L194.7 114.1 L198.3 112.7 L202.0 112.9 L205.2 114.5 L207.3 117.0 L208.2 120.1 L207.7 123.1 L206.2 125.4 L204.0 126.9 L201.6 127.3 L199.4 126.7 L197.8 125.3 L197.0 123.6 L197.0 121.9 L197.6 120.5 L198.7 119.6 L199.9 119.3" fill="none"/>
+<circle cx="214.2" cy="121.8" r="17.4" stroke="none"/><path d="M214.2 137.2 L208.2 135.4 L203.6 131.6 L201.0 126.4 L200.8 120.8 L202.7 115.8 L206.4 112.1 L211.0 110.2 L215.8 110.4 L220.0 112.4 L222.8 115.8 L224.0 119.9 L223.5 123.9 L221.5 127.1 L218.5 129.2 L215.1 129.8 L212.0 129.1 L209.6 127.2 L208.2 124.7 L208.0 122.1 L208.9 119.8 L210.5 118.2 L212.4 117.4 L214.3 117.6 L215.7 118.4 L216.6 119.6 L216.8 120.9" fill="none"/>
+<circle cx="233.8" cy="131.7" r="18.6" stroke="none"/><path d="M239.0 116.0 L244.5 119.8 L247.9 125.3 L248.7 131.4 L247.1 137.2 L243.4 141.7 L238.4 144.3 L233.0 144.6 L228.2 142.7 L224.6 139.3 L222.9 134.8 L223.0 130.3 L224.9 126.4 L228.1 123.7 L231.8 122.6 L235.5 123.1 L238.5 125.0 L240.3 127.7 L240.9 130.7 L240.1 133.5 L238.5 135.5 L236.3 136.7 L234.1 136.7 L232.2 136.0 L231.0 134.6 L230.5 133.1 L230.8 131.7" fill="none"/>
+<circle cx="245.4" cy="154.6" r="18.9" stroke="none"/><path d="M261.5 149.3 L261.7 156.1 L259.3 162.2 L254.8 166.7 L249.0 168.9 L243.1 168.7 L237.9 166.1 L234.4 161.9 L232.9 156.8 L233.6 151.7 L236.2 147.6 L240.0 145.0 L244.3 144.1 L248.5 145.1 L251.6 147.5 L253.5 150.8 L253.8 154.4 L252.7 157.5 L250.5 159.8 L247.8 160.9 L245.1 160.8 L242.9 159.7 L241.5 158.0 L241.0 155.9 L241.3 154.1 L242.3 152.8 L243.6 152.1" fill="none"/>
+<circle cx="253.5" cy="165.8" r="16.6" stroke="none"/><path d="M261.6 153.7 L265.4 158.2 L267.0 163.6 L266.3 169.1 L263.5 173.6 L259.3 176.6 L254.5 177.6 L249.8 176.5 L246.1 173.8 L243.9 170.0 L243.5 165.9 L244.7 162.1 L247.2 159.2 L250.5 157.7 L254.0 157.6 L257.0 158.9 L259.1 161.2 L260.0 163.9 L259.7 166.6 L258.5 168.8 L256.6 170.2 L254.5 170.6 L252.6 170.1 L251.2 169.0 L250.4 167.6 L250.4 166.2 L251.0 165.0" fill="none"/>
+<circle cx="261.5" cy="184.4" r="18.5" stroke="none"/><path d="M269.5 198.8 L263.0 200.3 L256.7 199.1 L251.6 195.6 L248.4 190.5 L247.6 184.8 L249.1 179.4 L252.5 175.3 L257.1 172.9 L262.1 172.7 L266.5 174.3 L269.7 177.5 L271.3 181.5 L271.1 185.6 L269.4 189.1 L266.6 191.5 L263.3 192.4 L260.0 191.9 L257.4 190.3 L255.9 187.9 L255.5 185.3 L256.1 183.0 L257.6 181.3 L259.4 180.4 L261.2 180.4 L262.7 181.2 L263.5 182.3" fill="none"/>
+<circle cx="116.8" cy="191.3" r="16.3" stroke="none"/><path d="M114.7 205.4 L109.4 203.0 L105.8 198.8 L104.1 193.7 L104.6 188.5 L107.1 184.2 L111.0 181.3 L115.5 180.2 L119.9 181.1 L123.4 183.5 L125.6 187.0 L126.1 190.9 L125.1 194.5 L122.8 197.2 L119.8 198.7 L116.6 198.8 L113.8 197.7 L111.8 195.6 L110.9 193.2 L111.1 190.7 L112.2 188.7 L113.9 187.4 L115.8 187.0 L117.5 187.4 L118.7 188.4 L119.3 189.6 L119.3 190.9" fill="none"/>
+<circle cx="122.4" cy="178.1" r="16.5" stroke="none"/><path d="M136.9 177.0 L134.8 171.5 L130.9 167.5 L125.8 165.4 L120.5 165.6 L115.9 167.7 L112.7 171.4 L111.3 176.0 L111.8 180.5 L114.0 184.2 L117.4 186.7 L121.3 187.5 L125.0 186.7 L128.0 184.6 L129.7 181.7 L130.0 178.4 L129.1 175.5 L127.2 173.4 L124.8 172.3 L122.3 172.3 L120.1 173.2 L118.7 174.9 L118.2 176.7 L118.4 178.5 L119.3 179.8 L120.6 180.5 L121.8 180.6" fill="none"/>
+<circle cx="127.0" cy="160.4" r="16.4" stroke="none"/><path d="M139.1 168.0 L134.8 171.8 L129.5 173.6 L124.1 173.0 L119.5 170.5 L116.5 166.4 L115.4 161.7 L116.2 157.1 L118.8 153.4 L122.4 151.1 L126.5 150.5 L130.3 151.6 L133.2 154.0 L134.8 157.2 L135.0 160.6 L133.8 163.6 L131.6 165.7 L129.0 166.7 L126.3 166.5 L124.1 165.4 L122.7 163.6 L122.2 161.5 L122.6 159.6 L123.7 158.2 L125.1 157.4 L126.5 157.4 L127.6 157.9" fill="none"/>
+<circle cx="137.7" cy="147.3" r="17.0" stroke="none"/><path d="M151.6 153.1 L147.8 157.8 L142.6 160.5 L136.9 160.9 L131.8 159.0 L128.0 155.3 L126.0 150.7 L126.1 145.8 L128.1 141.5 L131.5 138.5 L135.6 137.2 L139.7 137.7 L143.1 139.7 L145.3 142.7 L146.0 146.2 L145.3 149.4 L143.5 152.0 L140.9 153.5 L138.1 153.8 L135.7 152.9 L133.9 151.3 L133.0 149.3 L133.1 147.2 L133.9 145.6 L135.2 144.6 L136.7 144.3 L137.9 144.6" fill="none"/>
+<circle cx="153.5" cy="136.3" r="18.0" stroke="none"/><path d="M143.1 148.5 L139.5 143.0 L138.5 136.9 L140.0 131.0 L143.6 126.4 L148.6 123.7 L154.0 123.3 L158.9 125.0 L162.6 128.4 L164.5 132.9 L164.4 137.5 L162.6 141.5 L159.5 144.3 L155.7 145.5 L151.9 145.1 L148.8 143.3 L146.8 140.6 L146.2 137.5 L146.8 134.6 L148.5 132.3 L150.7 131.1 L153.1 130.9 L155.1 131.7 L156.5 133.0 L157.1 134.7 L156.9 136.3 L156.2 137.4" fill="none"/>
+<circle cx="172.7" cy="134.2" r="18.9" stroke="none"/><path d="M169.1 117.7 L175.9 118.1 L181.7 121.2 L185.7 126.1 L187.3 132.1 L186.5 138.0 L183.4 142.8 L178.8 145.9 L173.6 146.8 L168.7 145.6 L164.8 142.7 L162.6 138.6 L162.2 134.2 L163.6 130.2 L166.3 127.3 L169.8 125.8 L173.3 125.8 L176.4 127.2 L178.4 129.6 L179.3 132.4 L178.9 135.1 L177.6 137.2 L175.6 138.5 L173.6 138.8 L171.8 138.2 L170.6 137.1 L170.1 135.7" fill="none"/>
+<circle cx="189.6" cy="132.2" r="15.0" stroke="none"/><path d="M177.2 128.4 L180.0 124.0 L184.3 121.2 L189.1 120.4 L193.7 121.5 L197.4 124.3 L199.5 128.2 L199.8 132.4 L198.5 136.3 L195.8 139.2 L192.4 140.7 L188.8 140.6 L185.7 139.2 L183.5 136.8 L182.6 133.9 L182.9 131.0 L184.3 128.6 L186.3 127.1 L188.7 126.6 L190.9 127.1 L192.6 128.3 L193.5 130.0 L193.6 131.8 L193.1 133.3 L192.0 134.3 L190.8 134.7 L189.7 134.5" fill="none"/>
+<circle cx="204.3" cy="138.6" r="16.2" stroke="none"/><path d="M190.2 138.5 L191.8 133.1 L195.3 128.8 L200.1 126.5 L205.3 126.2 L209.9 128.0 L213.3 131.4 L215.0 135.7 L214.8 140.1 L213.0 143.9 L209.8 146.5 L206.1 147.6 L202.4 147.1 L199.4 145.3 L197.5 142.6 L196.9 139.4 L197.6 136.5 L199.3 134.3 L201.6 133.1 L204.1 132.9 L206.2 133.7 L207.7 135.1 L208.4 136.9 L208.2 138.7 L207.5 140.0 L206.3 140.8 L205.1 141.0" fill="none"/>
+<circle cx="221.3" cy="145.5" r="18.0" stroke="none"/><path d="M228.8 131.4 L233.4 135.9 L235.8 141.7 L235.6 147.7 L233.1 152.9 L228.9 156.6 L223.7 158.2 L218.6 157.6 L214.3 155.1 L211.4 151.3 L210.5 146.8 L211.4 142.5 L213.8 139.1 L217.2 137.1 L220.9 136.6 L224.3 137.7 L226.9 139.9 L228.2 142.8 L228.2 145.7 L227.1 148.2 L225.2 149.9 L223.0 150.6 L220.8 150.4 L219.2 149.3 L218.2 147.9 L218.0 146.3 L218.5 145.0" fill="none"/>
+<circle cx="232.0" cy="163.5" r="18.5" stroke="none"/><path d="M216.4 168.7 L216.1 162.0 L218.5 156.1 L222.9 151.7 L228.5 149.6 L234.3 149.8 L239.3 152.3 L242.7 156.5 L244.1 161.4 L243.5 166.3 L241.0 170.3 L237.3 172.9 L233.0 173.7 L229.0 172.8 L225.9 170.4 L224.2 167.2 L223.9 163.7 L224.9 160.7 L227.0 158.4 L229.7 157.4 L232.3 157.4 L234.5 158.5 L235.9 160.3 L236.3 162.2 L236.0 164.0 L235.0 165.3 L233.8 165.9" fill="none"/>
+<circle cx="240.7" cy="178.7" r="17.1" stroke="none"/><path d="M248.3 191.7 L242.4 193.2 L236.6 192.2 L231.8 189.1 L228.8 184.5 L228.0 179.2 L229.2 174.3 L232.3 170.4 L236.5 168.2 L241.0 167.8 L245.1 169.3 L248.1 172.1 L249.6 175.8 L249.6 179.6 L248.1 182.8 L245.5 185.0 L242.5 185.9 L239.5 185.6 L237.1 184.1 L235.6 182.0 L235.2 179.6 L235.7 177.4 L237.0 175.8 L238.7 175.0 L240.4 175.0 L241.7 175.6 L242.5 176.6" fill="none"/>
+<circle cx="241.3" cy="195.7" r="17.8" stroke="none"/><path d="M238.2 180.2 L244.6 180.8 L250.0 183.7 L253.6 188.4 L254.9 194.0 L254.0 199.5 L251.0 203.9 L246.7 206.7 L241.8 207.4 L237.3 206.2 L233.7 203.4 L231.7 199.5 L231.5 195.4 L232.8 191.7 L235.4 189.1 L238.7 187.8 L242.0 187.9 L244.8 189.3 L246.7 191.5 L247.4 194.2 L247.0 196.6 L245.7 198.6 L243.9 199.7 L242.0 199.9 L240.3 199.4 L239.2 198.3 L238.8 197.0" fill="none"/>
+<circle cx="139.3" cy="171.3" r="16.3" stroke="none"/><path d="M132.0 159.0 L137.6 157.6 L143.1 158.5 L147.6 161.4 L150.5 165.8 L151.3 170.7 L150.1 175.4 L147.3 179.1 L143.3 181.2 L139.0 181.6 L135.2 180.2 L132.3 177.5 L130.8 174.1 L130.9 170.5 L132.3 167.4 L134.7 165.3 L137.6 164.4 L140.4 164.8 L142.7 166.1 L144.1 168.2 L144.5 170.4 L144.0 172.5 L142.8 174.0 L141.2 174.8 L139.6 174.8 L138.3 174.2 L137.6 173.3" fill="none"/>
+<circle cx="151.3" cy="159.2" r="17.5" stroke="none"/><path d="M149.3 174.6 L155.5 173.6 L160.6 170.4 L163.8 165.6 L164.8 160.0 L163.6 154.7 L160.4 150.6 L156.0 148.1 L151.1 147.7 L146.7 149.2 L143.5 152.2 L141.8 156.0 L141.8 160.1 L143.3 163.6 L146.0 166.1 L149.3 167.1 L152.6 166.8 L155.2 165.3 L156.9 163.0 L157.4 160.3 L156.9 157.9 L155.5 156.1 L153.7 155.1 L151.8 155.0 L150.2 155.7 L149.2 156.8 L148.8 158.0" fill="none"/>
+<circle cx="165.1" cy="151.3" r="16.5" stroke="none"/><path d="M171.3 164.5 L175.7 160.6 L178.1 155.5 L178.2 150.0 L176.2 145.2 L172.6 141.6 L167.9 139.9 L163.2 140.2 L159.2 142.3 L156.5 145.6 L155.4 149.7 L156.0 153.6 L158.0 156.8 L161.0 158.8 L164.4 159.4 L167.5 158.6 L169.9 156.7 L171.2 154.1 L171.4 151.5 L170.5 149.1 L168.9 147.5 L166.9 146.7 L164.9 146.9 L163.4 147.8 L162.5 149.1 L162.2 150.4 L162.6 151.6" fill="none"/>
+<circle cx="183.3" cy="153.0" r="15.9" stroke="none"/><path d="M185.4 166.8 L190.5 164.4 L194.0 160.4 L195.6 155.4 L195.1 150.3 L192.7 146.1 L189.0 143.3 L184.5 142.3 L180.3 143.1 L176.8 145.5 L174.8 148.9 L174.2 152.6 L175.2 156.1 L177.5 158.8 L180.4 160.2 L183.5 160.3 L186.2 159.2 L188.1 157.3 L189.0 154.8 L188.8 152.5 L187.8 150.5 L186.1 149.3 L184.3 148.9 L182.6 149.3 L181.4 150.2 L180.8 151.4 L180.8 152.6" fill="none"/>
+<circle cx="199.0" cy="156.9" r="17.9" stroke="none"/><path d="M183.3 158.6 L185.7 164.6 L190.2 168.8 L195.8 170.9 L201.6 170.5 L206.5 168.0 L209.9 163.8 L211.2 158.8 L210.5 153.9 L208.0 149.9 L204.2 147.3 L199.9 146.6 L195.8 147.6 L192.7 150.0 L190.9 153.3 L190.7 156.8 L191.8 160.0 L194.0 162.2 L196.7 163.3 L199.4 163.2 L201.7 162.1 L203.2 160.3 L203.7 158.2 L203.3 156.3 L202.3 154.9 L201.0 154.2 L199.6 154.1" fill="none"/>
+<circle cx="210.9" cy="163.4" r="16.7" stroke="none"/><path d="M224.1 169.8 L225.1 164.0 L223.7 158.4 L220.4 154.1 L215.7 151.5 L210.5 151.1 L205.8 152.7 L202.3 155.9 L200.5 160.1 L200.5 164.5 L202.2 168.3 L205.2 171.0 L208.8 172.2 L212.4 171.9 L215.5 170.2 L217.4 167.6 L218.1 164.6 L217.5 161.7 L215.9 159.5 L213.7 158.2 L211.4 158.0 L209.4 158.7 L207.9 160.1 L207.3 161.7 L207.4 163.3 L208.1 164.6 L209.1 165.3" fill="none"/>
+</g>
+<g class="ringlets" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round">
+<g class="pull" data-i="0" style="transform-origin:139px 150px"><rect x="123" y="146" width="32" height="50" fill="transparent" stroke="none"/><path d="M139.0 150.0 L141.3 150.8 L142.9 151.7 L143.3 152.6 L142.4 153.4 L140.4 154.2 L137.8 155.1 L135.6 155.9 L134.3 156.8 L134.5 157.7 L136.1 158.5 L138.7 159.3 L141.5 160.2 L143.6 161.1 L144.3 161.9 L143.4 162.8 L141.0 163.6 L138.0 164.4 L135.1 165.3 L133.5 166.2 L133.5 167.0 L135.2 167.8 L138.3 168.7 L141.6 169.6 L144.2 170.4 L145.2 171.2 L144.3 172.1 L141.7 172.9 L138.2 173.8 L134.8 174.7 L132.7 175.5 L132.5 176.3 L134.3 177.2 L137.7 178.1 L141.6 178.9 L144.7 179.8 L146.1 180.6 L145.4 181.4 L142.5 182.3 L138.5 183.2 L134.6 184.0"/></g>
+<g class="pull" data-i="1" style="transform-origin:176px 146px"><rect x="160" y="142" width="32" height="56" fill="transparent" stroke="none"/><path d="M176.0 146.0 L178.3 147.0 L179.9 148.0 L180.3 149.0 L179.4 150.0 L177.4 151.0 L174.8 152.0 L172.6 153.0 L171.3 154.0 L171.5 155.0 L173.1 156.0 L175.7 157.0 L178.5 158.0 L180.6 159.0 L181.3 160.0 L180.4 161.0 L178.0 162.0 L175.0 163.0 L172.1 164.0 L170.5 165.0 L170.5 166.0 L172.2 167.0 L175.3 168.0 L178.6 169.0 L181.2 170.0 L182.2 171.0 L181.3 172.0 L178.7 173.0 L175.2 174.0 L171.8 175.0 L169.7 176.0 L169.5 177.0 L171.3 178.0 L174.7 179.0 L178.6 180.0 L181.7 181.0 L183.1 182.0 L182.4 183.0 L179.5 184.0 L175.5 185.0 L171.6 186.0"/></g>
+<g class="pull" data-i="2" style="transform-origin:216px 150px"><rect x="200" y="146" width="32" height="48" fill="transparent" stroke="none"/><path d="M216.0 150.0 L218.3 150.8 L219.9 151.6 L220.3 152.4 L219.4 153.2 L217.4 154.0 L214.8 154.8 L212.6 155.6 L211.3 156.4 L211.5 157.2 L213.1 158.0 L215.7 158.8 L218.5 159.6 L220.6 160.4 L221.3 161.2 L220.4 162.0 L218.0 162.8 L215.0 163.6 L212.1 164.4 L210.5 165.2 L210.5 166.0 L212.2 166.8 L215.3 167.6 L218.6 168.4 L221.2 169.2 L222.2 170.0 L221.3 170.8 L218.7 171.6 L215.2 172.4 L211.8 173.2 L209.7 174.0 L209.5 174.8 L211.3 175.6 L214.7 176.4 L218.6 177.2 L221.7 178.0 L223.1 178.8 L222.4 179.6 L219.5 180.4 L215.5 181.2 L211.6 182.0"/></g>
+</g></svg>
+<!--/AVATAR-->
+      </div>
+      <ol class="quotes" id="quotes">
+        <li data-src="Spotify bio">Let’s activate.</li>
+        <li data-src="Instagram, on WITH ME">Met Kiran on TikTok 1 year ago because we used the same Serum preset, never thought he’d become my second brother.</li>
+        <li data-src="Instagram, after Elsewhere">Always grateful to spin my tunes + friends for other people.</li>
+        <li data-src="SoundCloud, on the Everlong remix">dave grohl would probably hate this, it rips tho</li>
+        <li data-src="Instagram, on a first EDC">missed flights and 48 hours of no sleep. prob the best weekend of my life tbh</li>
+        <li data-src="SoundCloud bio">send me promos @ sc dm ;)</li>
+      </ol>
+    </div>
+
+    <div class="streaks" id="streaks" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </div>
+</section>
+
+<!-- ============ Nights → contact (one pinned run) ============ -->
+<section class="end" id="end">
+  <div class="stage">
+
+    <div class="nights" id="live">
+      <h2 class="nights-title" id="nights-title" aria-label="Selected nights"><span>S</span><span>e</span><span>l</span><span>e</span><span>c</span><span>t</span><span>e</span><span>d</span><span class="sp"> </span><span>n</span><span>i</span><span>g</span><span>h</span><span>t</span><span>s</span></h2>
+      <p class="nights-sub" id="nights-sub">LILLE <i>•</i> On the decks <i>•</i> 2026</p>
+      <div class="night-row" id="night-row">
+        <a class="night" href="https://www.instagram.com/tiestoverse_/p/DbGwzZ4Fb8j/" target="_blank" rel="noopener">
+          <figure><img src="img/night-brooklyn.jpg" alt="LILLE and Tiësto behind the decks, arms up, a full crowd in blue light" width="900" height="907" loading="lazy"><span class="badge">Brooklyn</span><span class="see">See the post</span></figure>
+          <div class="cap"><h3>Brought out by Tiësto</h3><b>2026</b><p>For an ID</p></div>
+        </a>
+        <a class="night" href="https://www.instagram.com/lillemusic/p/De97beeibHn/" target="_blank" rel="noopener">
+          <figure><img src="img/night-elsewhere.jpg" alt="LILLE playing at Elsewhere in pink and violet light" width="900" height="723" loading="lazy"><span class="badge">New York</span><span class="see">See the set</span></figure>
+          <div class="cap"><h3>Elsewhere</h3><b>2026</b><p>With Cutback</p></div>
+        </a>
+        <a class="night" href="https://posh.vip/e/edc-pre-party-2" target="_blank" rel="noopener">
+          <figure><img src="img/night-orlando.jpg" alt="K.ONE and LILLE in front of a painted shutter" width="900" height="888" loading="lazy"><span class="badge">Orlando</span><span class="see">See the night</span></figure>
+          <div class="cap"><h3>LILLE b2b K.ONE</h3><b>5 Nov 2026</b><p>EDC pre party, Bounce House</p></div>
+        </a>
+      </div>
+    </div>
+
+    <div class="contact" id="contact">
+      <p class="marquee" aria-hidden="true"><span>LILLE — New York — Let’s activate — 2026 — LILLE — New York — Let’s activate — 2026 — </span><span>LILLE — New York — Let’s activate — 2026 — LILLE — New York — Let’s activate — 2026 — </span></p>
+      <img class="contact-pic" src="img/contact.webp" alt="" width="1000" height="1696" loading="lazy">
+      <div class="contact-in">
+        <h2 class="label">Contact / Booking</h2>
+        <a class="mail" id="mail" href="mailto:lillemusicofficial@gmail.com"><span>lillemusicofficial<wbr>@gmail.com</span><b>↗</b></a>
+        <a class="mail" href="https://soundcloud.com/jakelille" target="_blank" rel="noopener"><span>Promos: SoundCloud DM</span><b>↗</b></a>
+        <p class="coords"><span>Based in:</span>New York, NY<br>40° 42' 46" N<br>74° 00' 22" W</p>
+        <ul class="social">
+          <li><a href="https://www.instagram.com/lillemusic" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4.5"/><circle cx="12" cy="12" r="3.6"/><circle cx="16.6" cy="7.4" r=".6" fill="currentColor"/></svg></a></li>
+          <li><a href="https://soundcloud.com/jakelille" target="_blank" rel="noopener" aria-label="SoundCloud"><svg viewBox="0 0 24 24"><path d="M3 15v2M5.5 13v4M8 11.5V17M10.5 9.5V17M13 8v9h6.2a2.8 2.8 0 0 0 .5-5.55A4.4 4.4 0 0 0 13 8z"/></svg></a></li>
+          <li><a href="https://open.spotify.com/artist/0BERd3qAgMNJ06Du18q2Rs" target="_blank" rel="noopener" aria-label="Spotify"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M7.6 9.9c3-.9 6.3-.6 9 1M8.2 12.7c2.4-.7 5-.4 7.1.8M8.9 15.3c1.8-.5 3.7-.3 5.2.6"/></svg></a></li>
+          <li><a href="https://www.tiktok.com/@lillepov" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M13.5 4v10.6a3.1 3.1 0 1 1-3.1-3.1M13.5 4c.3 2.3 1.8 3.9 4.2 4.2"/></svg></a></li>
+          <li><a href="https://linktr.ee/itslille" target="_blank" rel="noopener" aria-label="Linktree, all links"><svg viewBox="0 0 24 24"><path d="M12 3v18M6 9l6-6 6 6M5 13h14M7.5 17.5h9"/></svg></a></li>
+          <li><a href="https://laylo.com/lille" target="_blank" rel="noopener" aria-label="Laylo, get notified"><svg viewBox="0 0 24 24"><path d="M6.5 16.5V11a5.5 5.5 0 0 1 11 0v5.5l1.5 1.5H5zM10.5 20.5h3"/></svg></a></li>
+        </ul>
+        <p class="foot"><span>Preview build, not yet official.</span><span>Pictures and words from LILLE’s own pages.</span></p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<!-- The player (wide screens): SoundCloud's own widget with the page's controls -->
+<div class="dock" id="dock" hidden>
+  <img class="dock-art" id="dock-art" src="" alt="" width="40" height="40">
+  <button class="dock-play paused" id="dock-play" type="button" aria-label="Play or pause"><span class="ic-play">Play</span><span class="ic-pause">Pause</span></button>
+  <p class="dock-title" id="dock-title"></p>
+  <div class="dock-bar" id="dock-bar" role="slider" aria-label="Position in the track" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0"><span id="dock-fill"></span></div>
+  <p class="dock-time" id="dock-time"></p>
+  <a class="dock-out" id="dock-out" href="#" target="_blank" rel="noopener">SoundCloud ↗</a>
+  <button class="dock-close" id="dock-close" type="button">Close</button>
+</div>
+
+<div class="cur" id="cur" aria-hidden="true"></div>
+<p class="toast" id="toast" role="status"></p>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
