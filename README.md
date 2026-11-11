@@ -1,4 +1,4 @@
-# LILLE: artist site (preview)
+# LILLE: artist site
 
 A work-in-progress artist site for LILLE (New York; hard dance and speed
 garage), laid out after
@@ -16,8 +16,8 @@ preview address that leaves the domain as it was). A push to `main` does not
 update the domain. It only updates the GitHub Pages copy at
 https://samsegan.github.io/lille-site/.
 
-The page carries a `noindex` tag and a "Preview build, not yet official" line
-until LILLE signs off on it.
+The `noindex` tag and the "Preview build, not yet official" line came off on
+2026-11-11. A preview address made by the publish script still gets `noindex`.
 
 ## Colours and type
 
