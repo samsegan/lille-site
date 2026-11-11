@@ -10,7 +10,11 @@ portrait with a speech bubble, a wipe to a white screen of three cards, and a
 dark dome that rises into the contact screen with a moving line of type behind
 the address.
 
-Live preview: https://samsegan.github.io/lille-site/
+Live: https://lille-music.com/ (Cloudflare; publish with
+`tools/publish_cloudflare.sh`, or `tools/publish_cloudflare.sh round-2` for a
+preview address that leaves the domain as it was). A push to `main` does not
+update the domain. It only updates the GitHub Pages copy at
+https://samsegan.github.io/lille-site/.
 
 The page carries a `noindex` tag and a "Preview build, not yet official" line
 until LILLE signs off on it.
